@@ -1,0 +1,76 @@
+body {
+    background-color: #041226;
+}
+
+.CategoryCheckBoxesContainer{
+    padding: 1rem;
+}
+
+.CategoryCheckBoxDiv{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+    /* background: linear-gradient(to right, #a860d2, #1c67be ,#06a6bf); */
+}
+
+
+.MovieCardsDiv {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.MovieCardsContainer {
+    /* background-color: gray; */
+    
+    padding: 1rem;
+    width: 11.5rem;  /*this controls the poster image size */
+
+}
+
+
+.imageClass {
+    display: flex;
+    border-radius: 0.5rem;
+}
+
+
+
+.MovieTitleClass {
+    color: white;
+    margin-top: 10px;
+    font-size: 1.125rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+.MovieCategoryDiv {
+    flex-grow: 1;
+    margin-top: -23px;
+    overflow: hidden;
+}
+
+/* flex-grow overflow-hidden */
+
+.MovieCategoryPtag {
+    color: rgb(156 163 175);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+.ErrorDiv{
+    color: white;
+    margin: 15rem;
+    font-size: 2rem;
+}
+
+  
